@@ -13,4 +13,4 @@ router.get("/:id", skillsCtrl.show);
 
 module.exports = router;
 
-// GET /skills
+// GET /skills/:id
