@@ -13,5 +13,5 @@ function index(req, res) {
 function show(req, res){
     console.log(req.params, "<- req.params")
 
-    res.render("skills/show", {Skill.getOne(req.params.id)})
+    res.render("skills/show", {skill: Skill.getOne(req.params.id)})
 }
